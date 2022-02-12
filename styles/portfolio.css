@@ -90,10 +90,18 @@ p {
     margin-top: 10px;
   }
 
-  .hero h1 {
-    text-align: start;
+  h1 {
+    text-align: center;
+    font-size: 45px;
   }
 
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 15px;
+  }
   .project-description {
     text-align: center;
   }
