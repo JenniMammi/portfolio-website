@@ -1,13 +1,12 @@
 :root {
-  --branding-color: #885df1;
-  --light-branding-color: #f7f3ff;
   --bodyfont: "Poppins", sans-serif;
   --titlefont: "Playfair Display", serif;
   --box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+  --herocolor: #bddcdf;
 }
 
 body {
-  background-color: antiquewhite;
+  background-color: rgb(255, 255, 255);
 }
 
 h1 {
@@ -17,4 +16,55 @@ h1 {
 
 h2 {
   font-family: var(--bodyfont);
+}
+
+h3 {
+  font-family: "Playfair Display", serif;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+.hero {
+  background-color: var(--herocolor);
+  text-align: center;
+  padding: 160px;
+}
+
+.hero h1 {
+  font-size: 70px;
+}
+
+.hero h2 {
+  font-size: 25px;
+  margin: 0 auto;
+}
+
+.hero h3 {
+  font-size: 18px;
+}
+
+.contact-button {
+  background-color: #2e5077;
+  color: white;
+  width: 120px;
+  box-shadow: var(--box-shadow);
+  line-height: 27px;
+}
+
+.about-button {
+  border: 1px solid #2e5077;
+  color: 2e5077;
+  width: 120px;
+  line-height: 27px;
+  box-shadow: var(--box-shadow);
+}
+
+@media (max-width: 576px) {
+  .about-button {
+    margin-top: 10px;
+  }
+
+  .hero h1 {
+    text-align: start;
+  }
 }
