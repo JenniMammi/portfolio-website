@@ -2,8 +2,11 @@
   --subtitlefont: "Poppins", sans-serif;
   --bodyfont: "Playfair Display", serif;
   --box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
-  --herocolor: #bddcdf;
   --basic-button-color: #2e5077;
+  --themecolor1: #ffa630;
+  --themecolor2: #d7e8ba;
+  --themecolor3: #bddcdf;
+  --themecolor4: #611c35;
 }
 
 body {
@@ -41,9 +44,20 @@ p {
 }
 
 .hero {
-  background-color: var(--herocolor);
   text-align: center;
   padding: 160px;
+}
+
+.hero-about {
+  background-color: var(--themecolor1);
+}
+
+.hero-contact {
+  background-color: var(--themecolor2);
+}
+
+.hero-home {
+  background-color: var(--themecolor3);
 }
 
 .contact-button {
@@ -63,7 +77,7 @@ p {
 }
 
 .launch-button {
-  background-color: #611c35;
+  background-color: var(--themecolor4);
   color: white;
   box-shadow: var(--box-shadow);
   line-height: 27px;
@@ -105,4 +119,8 @@ p {
   .project-description {
     text-align: center;
   }
+}
+
+.navbar {
+  font-family: var(--subtitlefont);
 }
