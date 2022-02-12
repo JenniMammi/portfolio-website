@@ -1,8 +1,9 @@
 :root {
-  --bodyfont: "Poppins", sans-serif;
-  --titlefont: "Playfair Display", serif;
+  --subtitlefont: "Poppins", sans-serif;
+  --bodyfont: "Playfair Display", serif;
   --box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
   --herocolor: #bddcdf;
+  --basic-button-color: #2e5077;
 }
 
 body {
@@ -10,18 +11,27 @@ body {
 }
 
 h1 {
-  font-family: var(--titlefont);
+  font-family: "Playfair Display", serif;
   font-weight: bold;
+  font-size: 60px;
 }
 
 h2 {
-  font-family: var(--bodyfont);
+  font-family: var(--subtitlefont);
+  font-weight: 500;
+  font-size: 30px;
 }
 
 h3 {
-  font-family: "Playfair Display", serif;
-  font-weight: lighter;
-  font-size: 20px;
+  font-family: var(--subtitlefont);
+  font-weight: 400;
+  font-size: 18px;
+}
+
+p {
+  font-family: var(--bodyfont);
+  font-size: 16px;
+  line-height: 2;
 }
 
 .hero {
@@ -30,21 +40,8 @@ h3 {
   padding: 160px;
 }
 
-.hero h1 {
-  font-size: 70px;
-}
-
-.hero h2 {
-  font-size: 25px;
-  margin: 0 auto;
-}
-
-.hero h3 {
-  font-size: 18px;
-}
-
 .contact-button {
-  background-color: #2e5077;
+  background-color: var(--basic-button-color);
   color: white;
   width: 120px;
   box-shadow: var(--box-shadow);
@@ -52,11 +49,18 @@ h3 {
 }
 
 .about-button {
-  border: 1px solid #2e5077;
+  border: 1px solid var(--basic-button-color);
   color: 2e5077;
   width: 120px;
   line-height: 27px;
   box-shadow: var(--box-shadow);
+}
+
+.launch-button {
+  background-color: #611c35;
+  color: white;
+  box-shadow: var(--box-shadow);
+  line-height: 27px;
 }
 
 @media (max-width: 576px) {
@@ -67,4 +71,18 @@ h3 {
   .hero h1 {
     text-align: start;
   }
+}
+
+.project-description {
+  padding: 20px;
+}
+
+.project-description h2 {
+  font-weight: 800;
+  font-size: 40px;
+  font-family: "Playfair Display", serif;
+}
+
+.project-description small {
+  font-family: "Poppins", sans-serif;
 }
