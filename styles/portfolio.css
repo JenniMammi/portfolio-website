@@ -100,13 +100,13 @@ p {
 }
 
 @media (max-width: 991px) {
-  .about-button {
-    margin-top: 10px;
+  .hero {
+    padding: 80px 20px;
   }
 
   h1 {
     text-align: center;
-    font-size: 45px;
+    font-size: 35px;
   }
 
   h2 {
