@@ -50,6 +50,7 @@ p {
 
 .hero-about {
   background-color: var(--themecolor1);
+  padding: 100px;
 }
 
 .hero-contact {
@@ -123,4 +124,22 @@ p {
 
 .navbar {
   font-family: var(--subtitlefont);
+}
+
+.about-section img {
+  border-radius: 100%;
+  margin: 0 auto;
+  padding-top: 15px;
+  display: block;
+  width: 480px;
+}
+
+.about-section .col {
+  text-align: center;
+  padding: 20px;
+}
+
+.about-section .row {
+  background-color: rgb(240, 240, 240);
+  border-radius: 15px;
 }
