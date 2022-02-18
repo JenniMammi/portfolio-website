@@ -65,6 +65,10 @@ h4 {
   font-family: "Playfair Display", serif;
 }
 
+.contact-me-info h4 {
+  font-size: 45px;
+}
+
 p {
   font-family: var(--bodyfont);
   font-size: 16px;
@@ -100,6 +104,13 @@ p {
   width: 120px;
   box-shadow: var(--box-shadow);
   line-height: 27px;
+}
+
+.contact-me-info-button {
+  background-color: var(--basic-button-color);
+  color: white;
+  padding: 15px;
+  box-shadow: var(--box-shadow);
 }
 
 .about-button {
@@ -148,7 +159,7 @@ p {
 
   h1 {
     text-align: center;
-    font-size: 35px;
+    font-size: 45px;
   }
 
   .contact-box h2 {
@@ -202,4 +213,44 @@ p {
 .contact-box a:hover {
   color: var(--basic-button-color);
   text-decoration: none;
+}
+footer {
+  font-family: var(--subtitlefont);
+  text-align: center;
+  margin-top: 60px;
+}
+footer a {
+  text-decoration: none;
+  color: black;
+}
+footer a:visited {
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: var(--themecolor4);
+}
+
+footer .footer-social-links a {
+  margin: 15px;
+  color: white;
+  background-color: #2e5077;
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 100px;
+}
+
+footer .contact-me-info p {
+  margin-bottom: 0px;
+}
+
+footer .contact-me-info {
+  background-color: var(--themecolor3);
+  padding: 50px 50px;
+  border-radius: 15px;
+  width: 700px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  align-items: center;
+  text-align: start;
 }
