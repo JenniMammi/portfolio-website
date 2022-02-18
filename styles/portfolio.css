@@ -25,10 +25,21 @@ h1 {
   margin-bottom: 50px;
 }
 
+#contact-page-h1 {
+  color: var(--basic-button-color);
+}
+
 h2 {
   font-family: var(--subtitlefont);
   font-weight: 500;
   font-size: 30px;
+}
+
+.contact-box h2 {
+  font-family: var(--bodyfont);
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 1px;
 }
 
 h3 {
@@ -41,6 +52,11 @@ h3 {
   font-size: 23px;
   margin-bottom: 0;
   text-align: center;
+}
+
+.contact-box h3 {
+  font-family: var(--bodyfont);
+  font-size: 15px;
 }
 
 h4 {
@@ -135,6 +151,11 @@ p {
     font-size: 35px;
   }
 
+  .contact-box h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
   h2 {
     font-size: 20px;
   }
@@ -158,4 +179,27 @@ p {
 
 .content-section {
   padding: 40px;
+}
+
+.contact-box {
+  padding: 30px;
+  background-color: var(--themecolor3);
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+.contact-box a {
+  color: black;
+  text-decoration: underline;
+}
+
+.contact-box a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.contact-box a:hover {
+  color: var(--basic-button-color);
+  text-decoration: none;
 }
