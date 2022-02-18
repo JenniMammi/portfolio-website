@@ -25,10 +25,6 @@ h1 {
   margin-bottom: 50px;
 }
 
-#contact-page-h1 {
-  color: var(--basic-button-color);
-}
-
 h2 {
   font-family: var(--subtitlefont);
   font-weight: 500;
@@ -133,7 +129,6 @@ p {
   color: white;
   box-shadow: var(--box-shadow);
   line-height: 27px;
-  width: 120px;
 }
 
 .project-description {
