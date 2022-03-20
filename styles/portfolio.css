@@ -20,7 +20,7 @@ h1 {
 }
 
 .content-section h1 {
-  color: var(--themecolor4);
+  color: black;
   font-size: 40px;
   margin-bottom: 50px;
 }
@@ -189,7 +189,9 @@ p {
 
 .contact-box {
   padding: 30px;
-  background-color: var(--themecolor3);
+  background-color: white;
+  border: 13px solid var(--themecolor3);
+  box-shadow: var(--box-shadow);
   width: 50%;
   text-align: center;
   margin: 0 auto;
@@ -240,7 +242,9 @@ footer .contact-me-info p {
 }
 
 footer .contact-me-info {
-  background-color: var(--themecolor3);
+  background-color: white;
+  border: 13px solid var(--themecolor3);
+  box-shadow: var(--box-shadow);
   padding: 50px 50px;
   border-radius: 15px;
   width: 700px;
@@ -248,4 +252,9 @@ footer .contact-me-info {
   margin-bottom: 30px;
   align-items: center;
   text-align: start;
+}
+
+.contact-me-info a:hover {
+  color: white;
+  background-color: #203854;
 }
